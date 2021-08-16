@@ -1,0 +1,9 @@
+-- This is only a test quest.
+quest show_item_tooltip_by_cell begin
+	state start begin
+		when 9010.take begin
+			say_title("[TEXT_HORIZONTAL_ALIGN_CENTER] " .. "Demonstration of the Dragged Item" .. " [/TEXT_HORIZONTAL_ALIGN_CENTER]")
+			say_show_item_by_cell(item.get_window_type(), item.get_cell())
+		end
+	end
+end

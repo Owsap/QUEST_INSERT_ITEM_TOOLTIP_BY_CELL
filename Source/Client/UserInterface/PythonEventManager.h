@@ -1,0 +1,6 @@
+/// 1.
+// Search
+		EVENT_TYPE_SELECT_ITEM,
+
+// Add below
+		EVENT_TYPE_INSERT_ITEM_TOOLTIP_BY_CELL,
